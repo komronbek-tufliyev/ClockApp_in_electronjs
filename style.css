@@ -1,0 +1,22 @@
+body {
+    font-family: monospace;
+    min-height: 275px;
+    font-size: 32px;
+    background: linear-gradient(to right bottom,#0b28c9, #f71f23);
+    background-size: 100%;
+    color: greenyellow;
+    text-align: center;
+}
+
+#clock {
+    position: absolute;
+    width: 350px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #292929;
+    padding: 40px;
+    color: chocolate;
+    border-radius: 10px;
+
+}
